@@ -433,18 +433,6 @@ android_app_import {
 	},
 }
 
-android_app_import {
-	name: "MotCamera2",
-	owner: "motorola",
-	apk: "proprietary/system/priv-app/MotCamera2/MotCamera2.apk",
-	overrides: ["Camera2", "Aperture", "Flash"],
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
 dex_import {
 	name: "com.motorola.motosignature",
 	owner: "motorola",
